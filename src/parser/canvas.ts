@@ -4,7 +4,7 @@ import { errorBase64Url } from '../utils/image';
 
 /**
  * 将Canvas 解析为图片
- * @param canvas
+ * @param {HTMLCanvasElement} canvas 画布
  */
 export const parseCanvasToBitmap = (canvas: HTMLCanvasElement) => {
   if (!isCanvasNode(canvas)) return;
